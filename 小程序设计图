@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T16:28:36.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="hCX7tDfK_Lp5kE8brwdS" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T17:07:26.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44" etag="xnbXoOM8mWZjHXnUUQMX" version="20.0.4" type="github">
   <diagram id="l9N6zrrJaoFkHgKrLvr5" name="Page-1">
-    <mxGraphModel dx="2931" dy="568" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3598" dy="564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,6 +88,79 @@
         </mxCell>
         <mxCell id="6XwUGfNB_1_9r9_-C6he-59" value="JavaScript Engine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;fontSize=24;strokeColor=#b46504;fillColor=#fad7ac;" parent="1" vertex="1">
           <mxGeometry x="-1936" y="116" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2313.5" y="1044.0000610351562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-1" value="加载（初始化）插件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2373.5" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-2" target="xNOoHKfPqFjY_6Ql-WyK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-2" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2344" y="850" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2314" y="1189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-5" target="xNOoHKfPqFjY_6Ql-WyK-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2480.3529411764703" y="1132.86279296875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-5" value="判断本地是否安装迅雷" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2388.88" y="1047" width="150.75" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-7" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2324" y="1142" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-11" target="xNOoHKfPqFjY_6Ql-WyK-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2313.2941176470586" y="1323.4510282628678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-11" target="xNOoHKfPqFjY_6Ql-WyK-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-11" value="判断当前url是否&lt;br&gt;在黑名单中" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2388.88" y="1192" width="150.75" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-13" target="xNOoHKfPqFjY_6Ql-WyK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-13" value="引导安装迅雷" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2572" y="1154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-15" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2456" y="1059" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2313.2941176470586" y="1515.6078670726101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-18" value="接管当前页面的下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2373.51" y="1401" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-19" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2305" y="1281" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xNOoHKfPqFjY_6Ql-WyK-23" target="xNOoHKfPqFjY_6Ql-WyK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-23" value="不接管下载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2471" y="1319" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-28" value="end" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2344.01" y="1518" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="xNOoHKfPqFjY_6Ql-WyK-30" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2456" y="1259" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
